@@ -26,6 +26,7 @@ Screnshots below are taken on my ancient iPad Mini.
 <img src="screenshots/01-add-server.png" width="320" alt="Add Server">
 
 Server configuration window pops up automatically. Multiple servers are supported.
+
 ---
 
 ### Books
