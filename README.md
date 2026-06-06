@@ -1,7 +1,16 @@
 # TomeShelf
 
-Fully featured iOS, iPad OS, and Mac OS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
+iOS, iPad OS, and Mac OS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
 
+This app, originally for my private use, caters to my audiobooks with features tailored to my preferences:
+- Native app with single codebase for all Apple devices (Apple silicon iPhones, iPads, Macs)
+- Modern UI design
+- Full-featured, transparent offline mode
+- Podcasts as first-class citizens
+- In-app collections management
+- Player control for night-time listening where I should minimize or eliminate interactions with the screen/keyboard/mouse and utilize playback control provided by airpods (single/double/triple presses)
+- In-app podcast search, podcast management, caching for offline use
+ 
 > Need help? See [Support](SUPPORT.md).
 
 ---
