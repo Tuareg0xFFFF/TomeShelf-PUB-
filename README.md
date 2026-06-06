@@ -10,7 +10,8 @@ This app, originally created for my private use, caters to my preferences (some 
 - Podcasts as first-class citizens
 - In-app collections management
 - Player control for night-time listening where I should minimize or eliminate interactions with the screen/keyboard/mouse and utilize playback control provided by airpods (single/double/triple presses)
-- In-app podcast search, podcast management, caching for offline use
+- In-app podcast lookup, management, caching for offline use
+- Universal search that includes both books and podcasts
  
 > Need help? See [Support](SUPPORT.md).
 
