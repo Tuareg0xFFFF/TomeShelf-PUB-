@@ -1,13 +1,6 @@
 # TomeShelf
 
-A privacy-first iOS & iPadOS client for self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) servers. Stream and download your audiobooks and podcasts for offline listening, with background playback, lock-screen controls, chapter navigation, and listening stats.
-
-- 📖 Audiobooks & podcasts from your own Audiobookshelf server
-- ⬇️ Offline downloads for listening anywhere
-- ▶️ Background playback, lock-screen & CarPlay-style remote controls
-- 🔖 Chapters, episode notes, favorites & collections
-- 📊 Listening statistics
-- 🔒 No analytics, no telemetry — see the [Privacy Policy](PRIVACY.md)
+Fully featured iOS, iPad OS, and Mac OS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
 
 > Need help? See [Support](SUPPORT.md).
 
