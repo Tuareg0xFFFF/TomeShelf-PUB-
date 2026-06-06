@@ -18,13 +18,14 @@ This app, originally created for my private use, caters to my preferences (some 
 
 ## Screenshots
 
+Screnshots below are taken on my ancient iPad Mini.
+
 ### Getting started
 
 #### Add a server
 <img src="screenshots/01-add-server.png" width="320" alt="Add Server">
 
-The Add Server sheet with Host and port fields, Username and Password fields, and a Connect button.
-
+Server configuration window pops up automatically. Multiple servers are supported.
 ---
 
 ### Books
