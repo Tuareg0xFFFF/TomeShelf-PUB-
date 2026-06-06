@@ -2,9 +2,10 @@
 
 iOS, iPad OS, and Mac OS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
 
-This app, originally for my private use, caters to my audiobooks with features tailored to my preferences:
-- Native app with single codebase for all Apple devices (Apple silicon iPhones, iPads, Macs)
+This app, originally created for my private use, caters to my preferences (some are probably idiosyncratic):
+- Native app with single codebase for all Apple devices (Apple silicon based iPhones, iPads, Macs)
 - Modern UI design
+- Automatic sync with ABS server
 - Full-featured, transparent offline mode
 - Podcasts as first-class citizens
 - In-app collections management
