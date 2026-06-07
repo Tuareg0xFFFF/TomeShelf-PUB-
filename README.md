@@ -3,13 +3,13 @@
 iOS, iPad OS, and Mac OS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
 
 This app, originally created for my private use, caters to my preferences (some are probably idiosyncratic):
-- Native app with single codebase for all Apple devices (Apple silicon based iPhones, iPads, Macs)
+- Native app with single codebase for iPhones, iPads, Macs
 - Modern UI design
 - Automatic sync with ABS server
 - Full-featured, transparent offline mode
-- Podcasts as first-class citizens
+- Podcasts as first-class citizen
 - In-app collections management
-- Player control for night-time listening where I should minimize or eliminate interactions with the screen/keyboard/mouse and utilize playback control provided by airpods (single/double/triple presses)
+- Player control for night-time listening where interactions with the screen/keyboard/mouse should be minimal via playback control provided by airpods (single/double/triple presses)
 - In-app podcast lookup, management, caching for offline use
 - Universal search that includes both books and podcasts
  
