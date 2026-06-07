@@ -37,10 +37,9 @@ Server configuration window pops up automatically. Multiple servers are supporte
 
 The Books home with the sidebar open, showing ABS's standard shelves. Notice ABS server version and status displayed in the bottom part of the sidebar, along with the app version.
 
-#### Home — now playing
 <img src="screenshots/03-home-now-playing.png" width="320" alt="Home with mini player">
 
-The Books home with the sidebar collapsed and a mini player for "Congo" docked along the bottom.
+Home view with sidebar collapsed and mini player at the bottom. 
 
 #### Continue Listening
 <img src="screenshots/04-continue-listening.png" width="320" alt="Continue Listening">
