@@ -33,6 +33,7 @@ Server configuration window pops up automatically. Multiple servers are supporte
 ### Books
 
 #### Home
+
 <img src="screenshots/02-home.png" width="320" alt="Home">
 
 The Books home with the sidebar open, showing ABS's standard shelves. Notice ABS server version and status displayed in the bottom part of the sidebar, along with the app version.
@@ -41,17 +42,18 @@ The Books home with the sidebar open, showing ABS's standard shelves. Notice ABS
 
 Home view with sidebar collapsed and mini player at the bottom. 
 
-#### Continue Listening
+#### Continue Listening shelf
+
 <img src="screenshots/04-continue-listening.png" width="320" alt="Continue Listening">
 
-The full Continue Listening list with the sidebar open, showing book covers, titles, and authors in a grid.
+.. with the sidebar open
 
-#### Continue Listening — grid
 <img src="screenshots/05-continue-listening-grid.png" width="320" alt="Continue Listening grid">
 
-The Continue Listening list with the sidebar collapsed, showing a wider four-column grid of covers.
+.. with the sidebar collapsed
 
-#### Book details
+#### Book details view
+
 <img src="screenshots/06-book-details.png" width="320" alt="Book details">
 
 The "Congo" detail page with Play, Mark as Played, Download, Add to Collection, and Delete from Server buttons, plus narrator, duration, and an About section.
