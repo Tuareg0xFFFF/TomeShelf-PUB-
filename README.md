@@ -35,7 +35,7 @@ Server configuration window pops up automatically. Multiple servers are supporte
 #### Home
 <img src="screenshots/02-home.png" width="320" alt="Home">
 
-The Books home with the sidebar open, showing Continue Listening, Recently Added, Recent Series, and Discover shelves.
+The Books home with the sidebar open, showing ABS's standard shelves.
 
 #### Home — now playing
 <img src="screenshots/03-home-now-playing.png" width="320" alt="Home with mini player">
