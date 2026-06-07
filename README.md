@@ -54,6 +54,8 @@ Notice ABS server version and status displayed in the bottom part of the sidebar
 
 <img src="screenshots/07-player.png" width="320" alt="Player">
 
+Notice chapter marks in the progress bar.
+
 #### Player — chapters
 
 <img src="screenshots/08-player-chapters.png" width="320" alt="Player chapters">
