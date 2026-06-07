@@ -67,65 +67,53 @@ Notice ABS server version and status displayed in the bottom part of the sidebar
 ### Podcasts
 
 #### Podcasts home
+
 <img src="screenshots/10-podcasts-home.png" width="320" alt="Podcasts home">
 
-The Podcasts home with the sidebar open, showing Continue Listening, Newest Episodes, and Recently Added shelves.
-
-#### Podcasts home — wide
 <img src="screenshots/11-podcasts-home-wide.png" width="320" alt="Podcasts home wide">
 
-The Podcasts home with the sidebar collapsed, showing the same shelves across the full width.
-
 #### Latest episodes
+
 <img src="screenshots/12-latest-episodes.png" width="320" alt="Latest episodes">
 
-The Latest Episodes list, each row showing episode title, podcast name, relative date, duration, and star, info, and play buttons.
-
 #### Episode player
+
 <img src="screenshots/13-episode-player.png" width="320" alt="Episode player">
 
-The full-screen player for a Sean Carroll's Mindscape episode, showing show artwork, episode title and date, scrubber, and playback controls.
-
 #### Episode notes
+
 <img src="screenshots/14-episode-notes.png" width="320" alt="Episode notes">
 
-The Notes sheet over the player, showing the episode's title and full description text.
-
 #### Podcasts — now playing
+
 <img src="screenshots/15-podcasts-now-playing.png" width="320" alt="Podcasts with mini player">
 
-The Podcasts home with the sidebar open and a mini player showing the current episode docked at the bottom.
-
 #### Podcasts library
+
 <img src="screenshots/16-podcasts-library.png" width="320" alt="Podcasts library">
 
-The Podcasts library as a grid of cover art with each podcast's title and episode count.
-
 #### Podcast detail
+
 <img src="screenshots/17-podcast-detail.png" width="320" alt="Podcast detail">
 
-The Sean Carroll's Mindscape detail page with a Downloaded label and an episode list showing titles, dates, durations, and play/star/info controls.
+#### Podcast favorites
 
-#### Favorites
 <img src="screenshots/18-favorites.png" width="320" alt="Favorites">
 
-The Favorites list of starred episodes, each row showing the episode title, podcast name, date, and play controls with a filled star.
+#### Podcast search
 
-#### Add podcast — search
 <img src="screenshots/19-add-podcast-search.png" width="320" alt="Add podcast search">
 
-The Add Podcast screen with Search and URL tabs, a search field ("macbreak"), and a list of matching shows with episode counts.
+In-app search for new podcasts
 
-#### Add podcast — details
 <img src="screenshots/20-add-podcast-detail.png" width="320" alt="Add podcast details">
-
-The detail for "MacBreak Weekly (Audio)" with its About text, an episode list, and an Add to Library button.
 
 ---
 
 ### Search
 
 #### Library search
+
 <img src="screenshots/21-search.png" width="320" alt="Library search">
 
-A search for "sean carr" with results grouped into Authors, Books, Podcasts, and Episodes sections.
+Search is global, notice how Sean Carrol's books and podcasts are picked up.
