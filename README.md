@@ -36,42 +36,31 @@ Server configuration window pops up automatically. Multiple servers are supporte
 
 <img src="screenshots/02-home.png" width="320" alt="Home">
 
-The Books home with the sidebar open, showing ABS's standard shelves. Notice ABS server version and status displayed in the bottom part of the sidebar, along with the app version.
+Notice ABS server version and status displayed in the bottom part of the sidebar, along with the app version.
 
 <img src="screenshots/03-home-now-playing.png" width="320" alt="Home with mini player">
-
-Home view with sidebar collapsed and mini player at the bottom. 
 
 #### Continue Listening shelf
 
 <img src="screenshots/04-continue-listening.png" width="320" alt="Continue Listening">
 
-.. with the sidebar open
-
 <img src="screenshots/05-continue-listening-grid.png" width="320" alt="Continue Listening grid">
 
-.. with the sidebar collapsed
-
-#### Book details view
+#### Book details
 
 <img src="screenshots/06-book-details.png" width="320" alt="Book details">
 
-The "Congo" detail page with Play, Mark as Played, Download, Add to Collection, and Delete from Server buttons, plus narrator, duration, and an About section.
-
 #### Player
+
 <img src="screenshots/07-player.png" width="320" alt="Player">
 
-The full-screen player for "Congo" with cover art, a scrubber showing elapsed and remaining time, speed control, skip and chapter buttons, and a volume slider.
-
 #### Player — chapters
+
 <img src="screenshots/08-player-chapters.png" width="320" alt="Player chapters">
 
-The Chapters sheet over the player, listing chapters with timestamps and the current one ("Weird") highlighted.
-
 #### Listening stats
-<img src="screenshots/09-stats.png" width="320" alt="Listening stats">
 
-The Stats page with totals for listening time, days listened, finished, books, duration, in-progress, and not-started counts, plus Last 7 Days and Last 30 Days bar charts.
+<img src="screenshots/09-stats.png" width="320" alt="Listening stats">
 
 ---
 
