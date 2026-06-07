@@ -1,6 +1,6 @@
 # TomeShelf
 
-iOS, iPad OS, and Mac OS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
+[TomeShelf](https://apps.apple.com/us/app/tomeshelf/id6761666925) is iOS, iPadOS, and MacOS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
 
 This app, originally created for my private use, caters to my preferences (some are probably idiosyncratic):
 - Native app with single codebase for iPhones, iPads, Macs
