@@ -17,6 +17,28 @@ This app, originally created for my private use, caters to my preferences (some 
 
 ---
 
+## Linux
+
+TomeShelf also runs on Linux, as a terminal app (`tomeshelf-tui`) over a playback daemon (`tomeshelf-cli`): the same sync, offline library and progress as the Apple app, drawn in your terminal — with real cover art in kitty, Ghostty, WezTerm and foot. Install or update with one line, no root needed:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/install.sh | bash
+```
+
+Then add your server and start listening:
+
+```bash
+tomeshelf-cli login http://<audiobookshelf-host>:13378 <username>
+tomeshelf-cli sync  http://<audiobookshelf-host>:13378
+tomeshelf-tui
+```
+
+Update later with `tomeshelf-cli update` (or re-run the line above); `install.sh --uninstall` removes it. Needs x86_64 and glibc 2.39 or later — Ubuntu 24.04+, Debian 13+, Fedora 40+, Arch and other rolling distros — plus a few system libraries (mpv, libsecret, sqlite, dbus) that the installer names for your distro. Every download is verified against the release's `SHA256SUMS`.
+
+Prefer a package? Each [release](https://github.com/Tuareg0xFFFF/TomeShelf-PUB-/releases) also carries a `.deb` for Debian/Ubuntu and a tarball for any distro.
+
+---
+
 ## Screenshots
 
 Screnshots below are taken on my ancient iPad Mini.
