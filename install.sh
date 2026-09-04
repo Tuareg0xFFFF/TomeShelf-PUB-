@@ -246,11 +246,11 @@ if [ -n "$missing" ]; then
     fi
     case " $id $like " in
         *" arch "*|*" manjaro "*|*" endeavouros "*)
-            hint="sudo pacman -S --needed mpv sqlite libsecret dbus libxml2-legacy" ;;
+            hint="sudo pacman -S --needed mpv sqlite libsecret dbus" ;;
         *" debian "*|*" ubuntu "*)
-            hint="sudo apt install libmpv2 libsecret-1-0 libsqlite3-0 libdbus-1-3 libcurl4t64 libxml2" ;;
+            hint="sudo apt install libmpv2 libsecret-1-0 libsqlite3-0 libdbus-1-3 libcurl4t64" ;;
         *" fedora "*|*" rhel "*)
-            hint="sudo dnf install mpv-libs libsecret sqlite-libs dbus-libs libcurl libxml2   # mpv-libs is in RPM Fusion" ;;
+            hint="sudo dnf install mpv-libs libsecret sqlite-libs dbus-libs libcurl   # mpv-libs is in RPM Fusion" ;;
         *)
             hint="install the packages that provide: $missing" ;;
     esac
