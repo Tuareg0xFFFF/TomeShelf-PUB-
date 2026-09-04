@@ -1,21 +1,15 @@
 # TomeShelf Support
 
 TomeShelf is a native Audiobookshelf client for iOS, iPadOS, and macOS.
-This page explains how to get help, report problems, and request features.
+How to get help, report a problem, or request a feature.
 
 Last updated: May 17, 2026
 
 ## Getting Help
 
-The fastest way to get help is to open an issue on GitHub:
+Open an issue on GitHub:
 
 **https://github.com/Tuareg0xFFFF/TomeShelf-PUB-/issues**
-
-You can also email the developer directly:
-
-**[email protected]**  <!-- replace with your real address -->
-
-We aim to respond within 3–5 business days.
 
 ## Before You Contact Us
 
@@ -64,8 +58,7 @@ If you are not the server admin, please ask the person who set it up.
 
 ## Feature Requests
 
-Feature requests are welcome — please open an issue with the label
-`enhancement` and describe your use case.
+Open an issue with the label `enhancement` and describe the use case.
 
 ## Privacy
 
