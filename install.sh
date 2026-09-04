@@ -80,7 +80,8 @@ if [ "$UNINSTALL" = 1 ]; then
         fi
     done
     rm -rf "$INSTALL_DIR"
-    rm -f "$SHARE_DIR/applications/tomeshelf.desktop" "$SHARE_DIR/pixmaps/tomeshelf.png"
+    rm -f "$SHARE_DIR/applications/tomeshelf.desktop" "$SHARE_DIR/pixmaps/tomeshelf.png" \
+          "$SHARE_DIR"/icons/hicolor/*/apps/tomeshelf.png
     say "Removed. Your library, downloads and settings are untouched in ~/.local/share/TomeShelf."
     exit 0
 fi
@@ -222,8 +223,14 @@ done
 
 # The launcher entry and icon the tarball carries under share/, placed where
 # a desktop looks for a user's own — $PREFIX/share is ~/.local/share by
-# default, which is XDG_DATA_HOME. Older tarballs have no share/; fine.
-if [ -f "$INSTALL_DIR/share/tomeshelf.desktop" ]; then
+# default, which is XDG_DATA_HOME. From 2.17 the tarball's share/ is that
+# layout already (applications/, icons/hicolor/<size>/apps/) and copies
+# across whole; the flat layout of older tarballs is placed by hand, and its
+# one 1024px icon can only go to pixmaps/, where launchers may not look.
+if [ -d "$INSTALL_DIR/share/applications" ]; then
+    mkdir -p "$SHARE_DIR"
+    cp -r "$INSTALL_DIR/share/." "$SHARE_DIR/"
+elif [ -f "$INSTALL_DIR/share/tomeshelf.desktop" ]; then
     install -Dm644 "$INSTALL_DIR/share/tomeshelf.desktop" "$SHARE_DIR/applications/tomeshelf.desktop"
     install -Dm644 "$INSTALL_DIR/share/tomeshelf.png" "$SHARE_DIR/pixmaps/tomeshelf.png"
 fi
