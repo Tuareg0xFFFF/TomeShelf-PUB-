@@ -1,12 +1,12 @@
 # TomeShelf
 
-[TomeShelf](https://apps.apple.com/us/app/tomeshelf/id6761666925) is iOS, iPadOS, and MacOS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
+[TomeShelf](https://apps.apple.com/us/app/tomeshelf/id6761666925) is an iOS, iPadOS and macOS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
 
 This app, originally created for my private use, caters to my preferences (some are probably idiosyncratic):
 - Native app with single codebase for iPhones, iPads, Macs
 - Modern UI design
 - Automatic sync with ABS server
-- Full-featured, transparent offline mode: if offline mode is selected (per-server setting), all books will be cached on device automatically. Regardless of offline mode switch, one can always download individual books or remove downloaded book from cache. Individual podcast episodes follow the same pattern - one has full control oevr caching.  
+- Full-featured, transparent offline mode: if offline mode is selected (per-server setting), all books will be cached on device automatically. Regardless of offline mode switch, one can always download individual books or remove downloaded book from cache. Individual podcast episodes follow the same pattern - one has full control over caching.
 - Podcasts are as important as books.
 - In-app book collections management
 - Player control for night-time listening where interactions with the screen/keyboard/mouse should be minimal via playback control provided by airpods (single/double/triple presses)
@@ -19,7 +19,7 @@ This app, originally created for my private use, caters to my preferences (some 
 
 ## Linux
 
-TomeShelf also runs on Linux, as a terminal app (`tomeshelf-tui`) over a playback daemon (`tomeshelf-cli`): the same sync, offline library and progress as the Apple app, drawn in your terminal — with real cover art in kitty, Ghostty, WezTerm and foot. Install or update with one line, no root needed:
+TomeShelf also runs on Linux as a terminal app (`tomeshelf-tui`) over a playback daemon (`tomeshelf-cli`), with the same sync, offline library and progress as the Apple app. Cover art is drawn in terminals with an image protocol (kitty, Ghostty, WezTerm, foot). Install or update with one line, no root:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/install.sh | bash
@@ -33,15 +33,15 @@ tomeshelf-cli sync  http://<audiobookshelf-host>:13378
 tomeshelf-tui
 ```
 
-Update later with `tomeshelf-cli update` (or re-run the line above); `install.sh --uninstall` removes it. Needs x86_64 and glibc 2.39 or later — Ubuntu 24.04+, Debian 13+, Fedora 40+, Arch and other rolling distros — plus a few system libraries (mpv, libsecret, sqlite, dbus) that the installer names for your distro. Every download is verified against the release's `SHA256SUMS`, and the sums against the release's signature (`SHA256SUMS.sig`) when `openssl` is present.
+`tomeshelf-cli update` updates it; `install.sh --uninstall` removes it. Requirements: x86_64, glibc 2.39 or later (Ubuntu 24.04+, Debian 13+, Fedora 40+, rolling distros), and the system libraries mpv, libsecret, sqlite and dbus, which the installer names for your distro. Downloads are checked against the release's `SHA256SUMS`, and the sums against the release signature (`SHA256SUMS.sig`) when `openssl` is installed.
 
-Prefer to do it by hand? Each [release](https://github.com/Tuareg0xFFFF/TomeShelf-PUB-/releases) carries the tarball for any distro, with `bin/`, a `VERSION`, and a launcher entry under `share/`.
+Each [release](https://github.com/Tuareg0xFFFF/TomeShelf-PUB-/releases) also carries the tarball itself: `bin/`, `VERSION`, `LICENSE`, and a launcher entry under `share/`.
 
 ---
 
 ## Screenshots
 
-Screnshots below are taken on my ancient iPad Mini.
+Screenshots below are taken on my ancient iPad Mini.
 
 ### Getting started
 
