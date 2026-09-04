@@ -267,7 +267,6 @@ case ":$PATH:" in
 esac
 say ""
 say "Next:"
-say "    tomeshelf-cli login http://<audiobookshelf-host>:13378 <username>"
-say "    tomeshelf-cli sync  http://<audiobookshelf-host>:13378"
 say "    tomeshelf-tui"
+say "${DIM}It starts its daemon and opens the form to add your server.${RESET}"
 say "${DIM}Update later with: tomeshelf-cli update   (or re-run this script)${RESET}"

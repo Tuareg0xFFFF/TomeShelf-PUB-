@@ -25,13 +25,13 @@ TomeShelf also runs on Linux as a terminal app (`tomeshelf-tui`) over a playback
 curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/install.sh | bash
 ```
 
-Then add your server and start listening:
+Then:
 
 ```bash
-tomeshelf-cli login http://<audiobookshelf-host>:13378 <username>
-tomeshelf-cli sync  http://<audiobookshelf-host>:13378
 tomeshelf-tui
 ```
+
+It starts its daemon and, on first run, opens the form to add your server. The daemon is also a command line (`tomeshelf-cli help`) for a machine with no terminal in front of it.
 
 `tomeshelf-cli update` updates it. To remove it:
 
