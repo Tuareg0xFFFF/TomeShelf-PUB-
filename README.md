@@ -3,7 +3,7 @@
 [TomeShelf](https://apps.apple.com/us/app/tomeshelf/id6761666925) is an Linux, iOS, iPadOS and macOS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server.
 
 This app, originally created for my private use, caters to my preferences (some are probably idiosyncratic):
-- Native app with single codebase for iPhones, iPads, Macs
+- Native app with single codebase
 - Modern UI design
 - Automatic sync with ABS server
 - Full-featured, transparent offline mode: if offline mode is selected (per-server setting), all books will be cached on device automatically. Regardless of offline mode switch, one can always download individual books or remove downloaded book from cache. Individual podcast episodes follow the same pattern - one has full control over caching.
