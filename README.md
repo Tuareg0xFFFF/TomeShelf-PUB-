@@ -1,6 +1,6 @@
 # TomeShelf
 
-[TomeShelf](https://apps.apple.com/us/app/tomeshelf/id6761666925) is an Linux, iOS, iPadOS and macOS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server. Linux version is free, Apple - universal purchase (one purchase covers all Apple targets),
+[TomeShelf](https://apps.apple.com/us/app/tomeshelf/id6761666925) is an Linux, iOS, iPadOS and macOS client for your self-hosted [Audiobookshelf](https://www.audiobookshelf.org/) server. Linux version is free, Apple - universal one time purchase (one purchase covers all Apple targets),
 
 This app, originally created for my private use, caters to my preferences (some are probably idiosyncratic):
 - Native app with single codebase
