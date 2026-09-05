@@ -33,7 +33,7 @@ tomeshelf-tui
 
 It starts its daemon and, on first run, opens the form to add your server. The daemon is also a command line (`tomeshelf-cli help`) for a machine with no terminal in front of it.
 
-`tomeshelf-cli update` updates it, and so does `U` in the TUI once its footer says a newer release is out: it installs the release and restarts. To remove it:
+Updates are built in. The app checks for a new release hourly and names it in the footer; press `U` and it downloads the release, verifies the signature, installs it and restarts itself, daemon included. `tomeshelf-cli update` does the same from the command line. Package managers are not involved. To remove it:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/install.sh | bash -s -- --uninstall
