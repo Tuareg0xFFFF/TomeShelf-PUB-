@@ -22,7 +22,7 @@
 #                    library, downloads and settings under
 #                    ~/.local/share/TomeShelf stay
 #
-# Requires: x86_64 Linux, glibc 2.39+, curl, tar, sha256sum. The daemon also
+# Requires: x86_64 or aarch64 Linux, glibc 2.39+, curl, tar, sha256sum. The daemon also
 # needs a few system libraries (mpv, libsecret, sqlite, dbus) that only your
 # package manager can install; the script checks and prints the exact
 # command for your distro.
@@ -90,7 +90,10 @@ fi
 
 [ "$(uname -s)" = "Linux" ] || die "this installer is for Linux (the Apple app is on the App Store)"
 arch="$(uname -m)"
-[ "$arch" = "x86_64" ] || die "no build is published for $arch yet — only x86_64"
+case "$arch" in
+    x86_64|aarch64) ;;
+    *) die "no build is published for $arch — only x86_64 and aarch64" ;;
+esac
 
 for tool in tar sha256sum; do
     command -v "$tool" >/dev/null 2>&1 || die "$tool is required and not on \$PATH"
