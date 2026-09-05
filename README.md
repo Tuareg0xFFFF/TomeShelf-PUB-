@@ -19,7 +19,7 @@ This app, originally created for my private use, caters to my preferences (some 
 
 ## Linux
 
-TomeShelf also runs on Linux as a terminal app (`tomeshelf-tui`) over a playback daemon (`tomeshelf-cli`), with the same sync, offline library and progress as the Apple app, on x86_64 and ARM machines alike. Cover art is drawn in terminals with an image protocol (kitty, Ghostty, WezTerm, foot). Install or update with one line, no root:
+TomeShelf runs on Linux as a terminal app (`tomeshelf-tui`) over a playback daemon (`tomeshelf-cli`), with the same sync, offline library and progress as the Apple app, on x86_64 and ARM machines alike. Cover art is drawn in terminals with an image protocol (kitty, Ghostty, WezTerm, foot). Install or update with one line, no root:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/install.sh | bash
