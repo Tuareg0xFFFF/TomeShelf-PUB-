@@ -19,7 +19,7 @@ This app, originally created for my private use, caters to my preferences (some 
 
 ## Linux
 
-TomeShelf also runs on Linux as a terminal app (`tomeshelf-tui`) over a playback daemon (`tomeshelf-cli`), with the same sync, offline library and progress as the Apple app. Cover art is drawn in terminals with an image protocol (kitty, Ghostty, WezTerm, foot). Install or update with one line, no root:
+TomeShelf also runs on Linux as a terminal app (`tomeshelf-tui`) over a playback daemon (`tomeshelf-cli`), with the same sync, offline library and progress as the Apple app, on x86_64 and ARM machines alike. Cover art is drawn in terminals with an image protocol (kitty, Ghostty, WezTerm, foot). Install or update with one line, no root:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/install.sh | bash
@@ -33,7 +33,7 @@ tomeshelf-tui
 
 It starts its daemon and, on first run, opens the form to add your server. The daemon is also a command line (`tomeshelf-cli help`) for a machine with no terminal in front of it.
 
-`tomeshelf-cli update` updates it. To remove it:
+`tomeshelf-cli update` updates it, and so does `U` in the TUI once its footer says a newer release is out: it installs the release and restarts. To remove it:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/install.sh | bash -s -- --uninstall
@@ -41,9 +41,9 @@ curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/in
 
 That removes the binaries, the links and the launcher entry. Your library, downloads and settings stay in `~/.local/share/TomeShelf`; delete that directory to remove them, and `~/.local/state/tomeshelf` for the daemon log. Sign-in tokens are keyring entries labelled TomeShelf when a keyring is running, otherwise `secrets.json` inside that directory.
 
-Requirements: x86_64 or aarch64, glibc 2.39 or later (Ubuntu 24.04+, Debian 13+, Fedora 40+, rolling distros), and the system libraries mpv, libsecret, sqlite and dbus, which the installer names for your distro. Downloads are checked against the release's `SHA256SUMS`, and the sums against the release signature (`SHA256SUMS.sig`) when `openssl` is installed.
+Requirements: x86_64 or aarch64 — an ARM server, a Raspberry Pi 5, a Mac running Asahi — with glibc 2.39 or later (Ubuntu 24.04+, Debian 13+, Fedora 40+, rolling distros), and the system libraries mpv, libsecret, sqlite and dbus, which the installer names for your distro. Downloads are checked against the release's `SHA256SUMS`, and the sums against the release signature (`SHA256SUMS.sig`) when `openssl` is installed.
 
-Each [release](https://github.com/Tuareg0xFFFF/TomeShelf-PUB-/releases) also carries the tarball itself: `bin/`, `VERSION`, `LICENSE`, and a launcher entry under `share/`.
+Each [release](https://github.com/Tuareg0xFFFF/TomeShelf-PUB-/releases) also carries the tarballs themselves, one per architecture, and the installer picks the one for your machine: `bin/`, `VERSION`, `LICENSE`, and a launcher entry under `share/`. Both are built and tested natively.
 
 ---
 
