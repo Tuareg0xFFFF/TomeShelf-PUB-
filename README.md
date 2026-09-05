@@ -7,11 +7,11 @@ This app, originally created for my private use, caters to my preferences (some 
 - Modern UI design
 - Automatic sync with ABS server
 - Full-featured, transparent offline mode: if offline mode is selected (per-server setting), all books will be cached on device automatically. Regardless of offline mode switch, one can always download individual books or remove downloaded book from cache. Individual podcast episodes follow the same pattern - one has full control over caching.
-- Podcasts are as important as books.
-- In-app book collections management
-- Player control for night-time listening where interactions with the screen/keyboard/mouse should be minimal via playback control provided by airpods (single/double/triple presses)
-- In-app podcast lookup, management, caching for offline use
-- Universal search that includes both books and podcasts
+- Podcasts section is a first class citizen. Podcast discovery is built in.
+- In-app book collections management.
+- Player control for night-time listening where interactions with the screen/keyboard/mouse should be minimal via playback control provided by airpods (single/double/triple presses).
+- In-app podcast lookup, management, caching for offline use.
+- Universal search covers both books and podcasts.
  
 > Need help? See [Support](SUPPORT.md).
 
