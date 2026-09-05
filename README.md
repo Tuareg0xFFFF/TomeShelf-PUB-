@@ -41,7 +41,7 @@ curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/in
 
 That removes the binaries, the links and the launcher entry. Your library, downloads and settings stay in `~/.local/share/TomeShelf`; delete that directory to remove them, and `~/.local/state/tomeshelf` for the daemon log. Sign-in tokens are keyring entries labelled TomeShelf when a keyring is running, otherwise `secrets.json` inside that directory.
 
-Requirements: x86_64, glibc 2.39 or later (Ubuntu 24.04+, Debian 13+, Fedora 40+, rolling distros), and the system libraries mpv, libsecret, sqlite and dbus, which the installer names for your distro. Downloads are checked against the release's `SHA256SUMS`, and the sums against the release signature (`SHA256SUMS.sig`) when `openssl` is installed.
+Requirements: x86_64 or aarch64, glibc 2.39 or later (Ubuntu 24.04+, Debian 13+, Fedora 40+, rolling distros), and the system libraries mpv, libsecret, sqlite and dbus, which the installer names for your distro. Downloads are checked against the release's `SHA256SUMS`, and the sums against the release signature (`SHA256SUMS.sig`) when `openssl` is installed.
 
 Each [release](https://github.com/Tuareg0xFFFF/TomeShelf-PUB-/releases) also carries the tarball itself: `bin/`, `VERSION`, `LICENSE`, and a launcher entry under `share/`.
 
