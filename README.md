@@ -45,11 +45,21 @@ Requirements: x86_64 or aarch64 — an ARM server, a Raspberry Pi 5, a Mac runni
 
 Each [release](https://github.com/Tuareg0xFFFF/TomeShelf-PUB-/releases) also carries the tarballs themselves, one per architecture, and the installer picks the one for your machine: `bin/`, `VERSION`, `LICENSE`, and a launcher entry under `share/`. Both are built and tested natively.
 
+### Screenshots
+
+<table>
+<tr><td align="center" width="50%"><img src="screenshots/linux/books-home.png" width="440" alt="Home"><br><b>Home</b><br>The book library's home: Continue Listening, Reading List, Recently Added and Recent Series as rows of covers, with the selected book's details beside them.</td><td align="center" width="50%"><img src="screenshots/linux/books-collections.png" width="440" alt="Collections"><br><b>Collections</b><br>Each collection as a row, with its length in books and hours.</td></tr>
+<tr><td align="center" width="50%"><img src="screenshots/linux/books-player.png" width="440" alt="Player"><br><b>Player</b><br>The player over the library: cover, a scrubber with the chapter marks, transport, and the chapter list.</td><td align="center" width="50%"><img src="screenshots/linux/books-miniplayer.png" width="440" alt="Mini player"><br><b>Mini player</b><br>The player put away: one line above the footer with the position, while the library stays in front.</td></tr>
+<tr><td align="center" width="50%"><img src="screenshots/linux/books-stats.png" width="440" alt="Stats"><br><b>Stats</b><br>Listening time all time, today and this week, recent days and weekdays as bars, most-listened titles, and what the cache holds.</td><td align="center" width="50%"><img src="screenshots/linux/podcasts-home.png" width="440" alt="Podcasts home"><br><b>Podcasts home</b><br>Continue Listening, Newest Episodes and Listen Again for the podcast library.</td></tr>
+<tr><td align="center" width="50%"><img src="screenshots/linux/podcasts-latest.png" width="440" alt="Latest episodes"><br><b>Latest episodes</b><br>Every podcast's newest episodes in one list, newest first, with the star for favourites and the download state on each row.</td><td align="center" width="50%"><img src="screenshots/linux/podcasts-discover.png" width="440" alt="Discover"><br><b>Discover</b><br>Apple's charts by genre, with each show's own description; a search field takes a name or an RSS feed URL.</td></tr>
+<tr><td align="center" width="50%"><img src="screenshots/linux/podcasts-player.png" width="440" alt="Episode player"><br><b>Episode player</b><br>The player for an episode: its artwork, the scrubber, and the show notes with their links.</td></tr>
+</table>
+
 ---
 
-## Screenshots
+## iOS and iPadOS screenshots
 
-Screenshots below are taken on my ancient iPad Mini.
+Taken on an iPad Mini.
 
 ### Getting started
 
