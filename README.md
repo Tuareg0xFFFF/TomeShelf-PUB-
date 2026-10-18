@@ -61,6 +61,20 @@ Releases carry one tarball per architecture (`bin/`, `VERSION`, `LICENSE`, `shar
 
 ---
 
+## iPhone Duo screenshots
+
+Taken on the iPhone Duo simulator. The folded cover screen first, then the inner screen held open like a book, where the player spreads across both pages.
+
+<table>
+<tr><td align="center" width="50%"><img src="screenshots/iphone-duo/books-01-home-folded.png" width="300" alt="Folded — Home"><br><b>Folded — Home</b></td><td align="center" width="50%"><img src="screenshots/iphone-duo/player-book-folded.png" width="300" alt="Folded — Player"><br><b>Folded — Player</b></td></tr>
+<tr><td align="center" width="50%"><img src="screenshots/iphone-duo/books-01-home-unfolded-sidebar.png" width="440" alt="Unfolded — Home with sidebar"><br><b>Unfolded — Home with sidebar</b></td><td align="center" width="50%"><img src="screenshots/iphone-duo/books-01-home-unfolded.png" width="440" alt="Unfolded — Home"><br><b>Unfolded — Home</b></td></tr>
+<tr><td align="center" width="50%"><img src="screenshots/iphone-duo/player-book-unfolded.png" width="440" alt="Unfolded — Player"><br><b>Unfolded — Player</b></td><td align="center" width="50%"><img src="screenshots/iphone-duo/player-podcast-unfolded.png" width="440" alt="Unfolded — Episode player"><br><b>Unfolded — Episode player</b></td></tr>
+<tr><td align="center" width="50%"><img src="screenshots/iphone-duo/podcasts-01-home-unfolded-sidebar.png" width="440" alt="Unfolded — Podcasts home"><br><b>Unfolded — Podcasts home</b></td><td align="center" width="50%"><img src="screenshots/iphone-duo/podcasts-02-library-unfolded-sidebar.png" width="440" alt="Unfolded — Podcasts library"><br><b>Unfolded — Podcasts library</b></td></tr>
+<tr><td align="center" width="50%"><img src="screenshots/iphone-duo/podcasts-03-discover-unfolded.png" width="440" alt="Unfolded — Discover"><br><b>Unfolded — Discover</b></td></tr>
+</table>
+
+---
+
 ## iOS and iPadOS screenshots
 
 Taken on an iPad Mini.
