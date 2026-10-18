@@ -19,35 +19,68 @@ This app, originally created for my private use, caters to my preferences (some 
 
 ## Linux
 
-Terminal app (`tomeshelf-tui`) over a playback daemon (`tomeshelf-cli`). Same sync, offline library and progress as the Apple app. Cover art in terminals with an image protocol (kitty, Ghostty, WezTerm, foot).
+Terminal app (`tomeshelf-tui`) over a background daemon (`tomeshelf-cli`) that plays the audio, downloads books and keeps the library. Same sync, offline library and progress as the Apple app. Cover art in terminals with an image protocol (kitty, Ghostty, WezTerm, foot, xterm); elsewhere covers are tiles with the title's initials.
 
-Install or update, no root:
+### Install
+
+No root:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/install.sh | bash
 ```
 
-Run:
+Installs under `~/.local/opt/tomeshelf` and links both commands into `~/.local/bin`. If that directory is not on your `$PATH`, the installer says so and prints the line to add. It also checks the system libraries the daemon needs and prints the install command for your distro.
+
+### Start
 
 ```bash
 tomeshelf-tui
 ```
 
-Starts the daemon; on first run, opens the add-server form. `tomeshelf-cli help` lists the daemon's own commands.
+Or open TomeShelf from your desktop's app menu; it runs in a terminal. The app starts its daemon, and on first run opens the form to add your server. One copy of the app runs at a time.
 
-Updates: the app checks hourly and names a new release in the footer. `U` downloads it, verifies the signature, installs it and restarts the app and the daemon. `tomeshelf-cli update` does the same from the command line.
+### Stop
 
-Uninstall:
+Press `q`. The daemon the app started stops with it, so if something is playing the app asks first: *Playback will stop — quit? (y/n)*. Closing the terminal window stops both without asking.
+
+To keep listening with the app closed, run the daemon yourself, in its own terminal or a tmux pane:
+
+```bash
+tomeshelf-cli serve
+```
+
+`tomeshelf-tui` then attaches to that daemon instead of starting one. Quitting the app leaves playback running, and opening it again picks up where it is. Stop the daemon with `Ctrl-C` in its terminal.
+
+### Update
+
+In the app: it checks for a new release every hour and names it in the footer. Press `U` (Shift-U) and confirm. It downloads the release, verifies its signature, installs it, and restarts the daemon and the app; playback stops during the restart.
+
+From the command line, with the app closed:
+
+```bash
+tomeshelf-cli update           # install the latest release
+tomeshelf-cli update --check   # only say whether there is one
+```
+
+`tomeshelf-tui --update` and re-running the install line do the same. These only replace the files: an app or daemon that is already running keeps the old version until it is started again.
+
+### Uninstall
+
+Quit the app, and stop any `tomeshelf-cli serve`, first.
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/Tuareg0xFFFF/TomeShelf-PUB-/main/install.sh | bash -s -- --uninstall
 ```
 
-Removes binaries, links and the launcher entry. Data stays in `~/.local/share/TomeShelf` and the daemon log in `~/.local/state/tomeshelf`. Sign-in tokens: keyring entries labelled TomeShelf, or `secrets.json` in the data directory when no keyring is running.
+Removes binaries, links and the launcher entry. Data stays in `~/.local/share/TomeShelf` (library, downloads, settings) and the daemon log in `~/.local/state/tomeshelf`; delete those to remove everything. Sign-in tokens: keyring entries labelled TomeShelf, or `secrets.json` in the data directory when no keyring is running.
 
-Requirements: x86_64 or aarch64; glibc 2.39+ (Ubuntu 24.04+, Debian 13+, Fedora 40+, rolling distros); mpv, libsecret, sqlite, dbus. The installer names the packages for the distro.
+### Details
 
-Releases carry one tarball per architecture (`bin/`, `VERSION`, `LICENSE`, `share/`), `SHA256SUMS`, and `SHA256SUMS.sig`. The installer and the updater verify both.
+Requirements: x86_64 or aarch64; glibc 2.39+ (Ubuntu 24.04+, Debian 13+, Fedora 40+, rolling distros); mpv, libsecret, sqlite, dbus. The installer itself needs curl, tar and sha256sum.
+
+Releases carry one tarball per architecture (`bin/`, `VERSION`, `LICENSE`, `share/`), `SHA256SUMS`, and `SHA256SUMS.sig`. The updater verifies both. The installer always verifies the checksum, and the signature when `openssl` is installed.
+
+`tomeshelf-cli help` lists the daemon's other commands (sign in, sync, listening sessions).
 
 ### Screenshots
 
